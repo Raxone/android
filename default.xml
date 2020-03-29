@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <remote fetch="https://android.googlesource.com/" name="aosp" review="https://android-review.googlesource.com/"/>
+  <remote fetch="https://github.com/khadas/" name="github"/>
+  
+  <default remote="github" revision="refs/heads/Vim" sync-j="4"/>
+  
+  <project name="u-boot" path="uboot" revision="00abf8b32b1f1171cf8a97fb852cf79c54d7b1ef"/>
+  <project name="linux" path="common" revision="76fd19ac41bb774e396ce8009ff665f29c26c535"/>
+  <project name="android_bootable_recovery" path="bootable/recovery" revision="9284690c76c14ea37411c2b19e5621ee807dfbdf"/>
+  <project name="android_build" path="build" revision="77f11894042684670d9ec479b1cd0d669f1f924b">
+  <project name="android_prebuilts_gcc_linux-x86_aarch64_aarch64-linux-android-4.9" path="prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9" revision="4b341df712969ca2ac0c3cf6294260d406b9d9be"/>
+  <project name="android_prebuilts_gcc_linux-x86_arm_arm-eabi-4.8" path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.8" revision="26e93f6af47f7bd3a9beb5c102a5f45e19bfa38a"/>
+  <project name="android_prebuilts_gcc_linux-x86_arm_arm-linux-androideabi-4.9" path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9" revision="a0cb3720e4047bade36f8cfac84ea94715313a89"/>
+  <project name="android_prebuilts_gcc_linux-x86_host_x86_64-linux-glibc2.11-4.8" path="prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.11-4.8" revision="63b209feac0b045f5fc68810fd2e65bf1ca51e2f"/>
+  <project name="android_prebuilts_gcc_linux-x86_host_x86_64-linux-glibc2.15-4.8" path="prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.15-4.8" revision="f61a459478cdc31e8aae22a182cdbf814ba08012"/>
+  <project name="android_prebuilts_gcc_linux-x86_host_x86_64-w64-mingw32-4.8" path="prebuilts/gcc/linux-x86/host/x86_64-w64-mingw32-4.8" revision="f691cae2f256d5f72388c0ce9113007a53ad333a"/>
+  <project name="android_prebuilts_misc" path="prebuilts/misc" revision="c2e2a8185813256b0d16778e92cc3fb72a975d63"/>
+  <project name="android_prebuilts_ndk" path="prebuilts/ndk" revision="ed603f9b7893442321e50d96bf226c27da1c279a"/>
+  <project name="android_prebuilts_python_linux-x86_2.7.5" path="prebuilts/python/linux-x86/2.7.5" revision="f63d822b31f41bc1be234ad64a7f09de9221444f"/>
+  <project name="android_prebuilts_tools" path="prebuilts/tools" revision="27ffdfa0b17baf2e5a95c54060bd741859dd2448"/>
+  <project name="android_sdk" path="sdk" revision="c78d07c6e964f23dc12ba739aff49ff1bf74b323"/>
+  <project name="android_system_gatekeeper" path="system/gatekeeper" revision="3c4cbf7f9434f54f8d306c059fcb7007ecb4a937"/>
+  <project name="android_system_keymaster" path="system/keymaster" revision="f175ca1c1958a22c7475e554ee36e623c629c1ad"/>
+  <project name="android_system_netd" path="system/netd" revision="c8683d7eb9bb95de2090431e8daaa45d92b45e38"/>
+  <project name="android_system_security" path="system/security" revision="d1b3dc5f636067f47fd1ec97d5ba89fd0ac9f710"/>
+  <project name="android_tools_external_fat32lib" path="tools/external/fat32lib" revision="3880776e41ff7def06e351720f2d162f88b58a03"/>
+  <project name="android_tools_external_gradle" path="tools/external/gradle" revision="4d16c0d448da78b6dd16bb5bba1baa14dcbb0997"/>
+  <project name="platform/prebuilts/sdk" path="prebuilts/sdk" remote="aosp" revision="8780b5256c0c0b0faa3d699abb02feda52e52ea0"/>
+  <project name="platform/prebuilts/qemu-kernel" path="prebuilts/qemu-kernel" remote="aosp" revision="f7cfc2cca15736862e45ebef54776e0dfdffeb16"/>
+  <project name="platform/external/google-breakpad" path="external/google-breakpad" remote="aosp" revision="7e61ab71172b9e0d477f16a5e3b3ec32f866d1a6"/>
+  <project name="platform/external/eclipse-basebuilder" path="external/eclipse-basebuilder" remote="aosp" revision="076f46888ed346775b8efc564d7694063ef5eea7"/>
+</manifest>
